@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdd9f1;
+}
+
+.container {
+  text-align: center;
+}
+
+.card {
+  background: rgb(185, 252, 245);
+  padding: 15px;
+  margin: 15px auto;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px gray;
+}

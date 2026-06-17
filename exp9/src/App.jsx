@@ -7,6 +7,7 @@ function App()
   const [password, setPassword] = useState(""); 
   const [success, setSuccess] = useState(""); 
   const [users, setUsers] = useState([]); 
+
   const handleSubmit = (e) => 
   { 
     e.preventDefault(); 
@@ -18,7 +19,10 @@ function App()
     const newUser = { 
       name, 
       email 
+
     }; 
+
+    
     setUsers([...users, newUser]); 
     setSuccess("Registration Successful!"); 
  

@@ -4,8 +4,11 @@ num.forEach((n)=>console.log(n));
 const multipleOf2 = num.map((n) => { return n * 2 });
 console.log(multipleOf2);
 
+
 const divisibeBy2 = num.filter((n) => n % 2 === 0);
 console.log(divisibeBy2);
+
+
 
 
 

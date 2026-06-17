@@ -15,6 +15,7 @@ function App() {
     <div className="container">
       <h1>Student Information</h1>
       <Student
+        
         name="Monica Geller"
         course="BTech (Computer Science)"
         marks="95"
